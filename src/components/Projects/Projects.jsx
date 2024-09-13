@@ -7,27 +7,49 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold ">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectsCard
-          title="E-commarce-website (Angular)"
-          main=" This is an e-commerce website built using Angular, featuring product listings,
-           user and seller logins, a shopping cart, and search functionality. 
-           Designed with a responsive UI for a seamless shopping experience."
-
+          title="E-commerce Website (Angular)"
+          main={[
+            "Product listings with filtering options",
+            "User and seller logins",
+            "Shopping cart functionality",
+            "Search functionality with instant results",
+            "Responsive UI for seamless experience"
+          ]}
         />
         <ProjectsCard
           title="Tech-Educational App (Flutter)"
-          main="This Tech-Educational App was developed using Flutter and Dart. The app provides users with educational content, allowing for an interactive learning experience. It is designed to be responsive across multiple devices, leveraging Flutter’s powerful UI components to ensure smooth navigation and functionality."
+          main={[
+            "Educational content delivery",
+            "Interactive learning features",
+            "Responsive design across devices",
+            "Built with Flutter and Dart"
+          ]}
         />
         <ProjectsCard
           title="E-commerce Website (MERN Stack)"
-          main="This e-commerce platform was built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It features a product catalog, user authentication, a shopping cart, and payment integration. The backend handles API requests with Express and Node.js, while the frontend is built with React.js, offering a seamless and dynamic shopping experience."
+          main={[
+            "Product catalog with real-time updates",
+            "User authentication with JWT",
+            "Shopping cart and payment integration",
+            "Built using MongoDB, Express, React, Node.js"
+          ]}
         />
-          <ProjectsCard
+        <ProjectsCard
           title="Frontend Projects (Tic-Tac-Toe, Stone Paper Scissors)"
-          main="These frontend projects, including Tic-Tac-Toe and Stone-Paper-Scissors, were built using HTML, CSS, and JavaScript. These games are designed to be simple yet interactive, focusing on user interaction and gameplay logic, showcasing essential frontend development skills."
+          main={[
+            "Interactive games built using HTML, CSS, and JavaScript",
+            "User-friendly UI with responsive design",
+            "Focus on essential frontend skills"
+          ]}
         />
-          <ProjectsCard
+        <ProjectsCard
           title="E-commerce Website (MySQL, React.js, Laravel)"
-          main="This e-commerce website uses MySQL as the database, React.js for the frontend, and Laravel for the backend. The platform supports multiple user types, secure transactions, and robust product management features. React.js ensures a highly interactive frontend, while Laravel efficiently manages backend operations and API requests."
+          main={[
+            "MySQL database integration",
+            "React.js for dynamic frontend",
+            "Laravel for backend and API management",
+            "Secure transactions and user management"
+          ]}
         />
       </div>
     </div>
@@ -35,3 +57,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
