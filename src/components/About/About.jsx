@@ -5,13 +5,16 @@ import pic from '../../assets/about1.jpg';
 const About = () => {
   return (
     <div id="About" className="text-white bg-black bg-opacity-30 shadow-xl rounded-lg mx-0 md:mx-20 p-6 md:p-12">
-      <h2 className="text-2xl md:text-4xl font-bold mb-8 ">About Me</h2>
+      <h2 className="text-2xl md:text-4xl font-bold mb-8">About Me</h2>
       
       <div className="md:flex md:gap-10 items-center">
         {/* Image Section */}
-        <img className="w-1/3 md:w-1/4 border-black border-2 rounded-3xl" src={pic} alt="About image" />
+        <img 
+          className="hidden md:block w-1/3 md:w-1/4 border-black border-2 rounded-3xl" 
+          src={pic} 
+          alt="About image" 
+        />
 
-        
         {/* Content Section */}
         <div className="flex flex-col gap-8 w-full">
           {/* Web Developer Section */}
