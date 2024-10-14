@@ -71,7 +71,7 @@ function Experience() {
 
       {/* Experience Section */}
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
+        {/* <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
           <FaGoogle color="#4285F4" size={50} />
           <span className="text-white">
             <h2 className="leading-tight">Software Engineer</h2>
@@ -81,9 +81,9 @@ function Experience() {
               <li>Senior SDE developer</li>
             </ul>
           </span>
-        </div>
+        </div> */}
 
-        <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
+        {/* <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
           <FaAmazon color="#FF9900" size={50} />
           <span className="text-white">
             <h2 className="leading-tight">Software Engineer</h2>
@@ -93,9 +93,9 @@ function Experience() {
               <li>Senior SDE developer</li>
             </ul>
           </span>
-        </div>
+        </div> */}
 
-        <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
+        {/* <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
           <RiNetflixFill color="#E50914" size={50} />
           <span className="text-white">
             <h2 className="leading-tight">Software Engineer</h2>
@@ -105,7 +105,7 @@ function Experience() {
               <li>Senior SDE developer</li>
             </ul>
           </span>
-        </div>
+        </div> */}
 
         {/* New Content for Internship */}
         <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
