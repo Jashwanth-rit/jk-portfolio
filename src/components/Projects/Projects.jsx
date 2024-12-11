@@ -51,6 +51,49 @@ const Projects = () => {
             "Secure transactions and user management"
           ]}
         />
+        <ProjectsCard
+  title="Event Management System (Django)"
+  main={[
+    "User registration and event creation",
+    "Event scheduling and ticket booking",
+    "Admin dashboard for event management",
+    "Payment integration",
+    "Responsive UI for easy navigation"
+  ]}
+/>
+
+<ProjectsCard
+  title="DevOps Bootcamp"
+  main={[
+    "CI/CD pipeline setup using Jenkins",
+    "Containerization with Docker and Kubernetes",
+    "Cloud automation with AWS",
+    "Infrastructure as Code (IaC) using Terraform",
+    "Monitoring and logging with ELK Stack"
+  ]}
+/>
+
+<ProjectsCard
+  title="DSA Bootcamp"
+  main={[
+    "Data Structures and Algorithms learning",
+    "Competitive coding challenges",
+    "Practice problems with solutions",
+    "Mastering problem-solving techniques",
+    "Weekly progress assessments"
+  ]}
+/>
+
+<ProjectsCard
+  title="AI Model (Human Fall Detection & Face Recognition)"
+  main={[
+    "Human fall detection using OpenPose",
+    "Face recognition with deep learning models",
+    "Real-time detection with webcam feed",
+    "Model optimization for accuracy",
+    "Implementation using Python and OpenCV"
+  ]}
+/>
       </div>
     </div>
   );

@@ -109,38 +109,48 @@ function Experience() {
 
         {/* New Content for Internship */}
         <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
-          <FaUniversity color="#1DA1F2" size={50} />
-          <span className="text-white">
-            <h2 className="leading-tight">Internship</h2>
-            <p className="text-sm leading-tight font-thin">Finished internship at XYZ Company</p>
-            <ul className="text-sm pt-2">
-              <li>Worked on full-stack development</li>
-              <li>Improved skills in React and database management</li>
-            </ul>
-          </span>
-        </div>
+  <FaUniversity color="#1DA1F2" size={50} />
+  <span className="text-white">
+    <h2 className="leading-tight">Internship</h2>
+    <p className="text-sm font-thin">Full Stack & AI Model Developer</p>
+    <ul className="text-sm pt-2">
+      <li>2-month internship at MEDICLOQ Pvt Ltd</li>
+      <li>Worked on AI healthcare solutions</li>
+    </ul>
+  </span>
+</div>
 
-        {/* New Content for Awards */}
+        {/* GSSOC Section */}
         <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
-          <FaAward color="#FFD700" size={50} />
+          <SiGoogle color="#4285F4" size={50} />
           <span className="text-white">
-            <h2 className="leading-tight">Awards and Rewards</h2>
+            <h2 className="leading-tight">GirlScript Summer of Code (GSSOC)</h2>
             <ul className="text-sm pt-2">
-              <li>Best Developer of the Year (2024)</li>
-              <li>Top Contributor in XYZ Platform</li>
+              <li>Ranked in the top 85 participants with 1500+ points</li>
+              <li>Contributed to open-source projects</li>
+            </ul>
+          </span>
+        </div>
+        <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
+          <FaGithub color="#181717" size={50} />
+          <span className="text-white">
+            <h2 className="leading-tight">Hacktoberfest</h2>
+            <ul className="text-sm pt-2">
+              <li>Successfully merged 4 pull requests</li>
+              <li>Contributed to highly reputed repositories</li>
             </ul>
           </span>
         </div>
 
-        {/* New Content for GitHub Contributions */}
+        {/* GitHub Contributions Section */}
         <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
           <FaGithub color="#181717" size={50} />
           <span className="text-white">
             <h2 className="leading-tight">GitHub Contributions</h2>
             <p className="text-sm leading-tight font-thin">Open Source Contributor</p>
             <ul className="text-sm pt-2">
-              <li>Contributed to various open-source projects</li>
               <li>Maintained personal repositories</li>
+              <li>Collaborated on open-source projects</li>
             </ul>
           </span>
         </div>
@@ -159,16 +169,18 @@ function Experience() {
 
         {/* New Content for Projects */}
         <div className="flex gap-6 bg-slate-950 bg-opacity-45 rounded-lg p-6 items-center shadow-xl">
-          <RiGitRepositoryLine color="#F1502F" size={50} />
-          <span className="text-white">
-            <h2 className="leading-tight">Projects</h2>
-            <ul className="text-sm pt-2">
-              <li>Expertise in frontend and backend development</li>
-              <li>Worked on login, validation, database handling</li>
-              <li>Developed full-stack applications</li>
-            </ul>
-          </span>
-        </div>
+  <RiGitRepositoryLine color="#F1502F" size={50} />
+  <span className="text-white">
+    <h2 className="leading-tight">Projects</h2>
+    <ul className="text-sm pt-2">
+      <li>Full-stack & DevOps development</li>
+      <li>Data analysis & AI model development</li>
+      <li>App development</li>
+    </ul>
+  </span>
+</div>
+
+
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu2Line, RiCloseLine } from '@remixicon/react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Navbar = () => {
   const [menu, openmenu] = useState(false);
@@ -22,6 +22,12 @@ const Navbar = () => {
           </a>
           <a href="https://github.com/Jashwanth-rit" target="_blank" rel="noopener noreferrer">
             <FaGithub className='text-white hover:text-gray-400 duration-300' size={25} />
+          </a>
+          <a href="https://x.com/JkKarunadu01" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className='text-white hover:text-gray-400 duration-300' size={25} />
+          </a>
+          <a href="https://www.instagram.com/jk_karunadu/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className='text-white hover:text-gray-400 duration-300' size={25} />
           </a>
         </div>
       </div>
