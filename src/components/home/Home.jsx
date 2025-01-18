@@ -1,6 +1,7 @@
 import React from "react";
-import pic from '../../assets/profile1.png';
+import pic from "../../assets/profile1.png";
 import TextChanges from "../TextChanges/TextChanges";
+import resume from "../../assets/Jk_resume.pdf";
 
 const Home = () => {
   return (
@@ -11,27 +12,37 @@ const Home = () => {
             <TextChanges />
           </h1>
           <p className="text-sm md:text-2xl mb-8">
-            Currently pursuing a degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at Ramaiah Institute of Technology. 
-            I have a deep passion for technology, especially in the exciting and rapidly growing fields of AI and ML.
+            Currently pursuing a degree in Computer Science and Engineering with
+            a specialization in Artificial Intelligence and Machine Learning at
+            Ramaiah Institute of Technology. I have a deep passion for
+            technology, especially in the exciting and rapidly growing fields of
+            AI and ML.
           </p>
-          <a href="#Footer">
-            <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-              Contact Me!
-            </button>
-          </a>
+          <div className="mt-5">
+            <a href="#Footer">
+              <button className="text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] mr-4">
+                Contact Me!
+              </button>
+            </a>
+          
+            <a href={resume} download="Jk_resume.pdf">
+              <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+                Download Resume
+              </button>
+            </a>
+          </div>
         </div>
         <div className="relative ">
-          <img src={pic} alt="Profile" className="w-full md:w-auto shadow-lg relative z-10" />
+          <img
+            src={pic}
+            alt="Profile"
+            className="w-full md:w-auto shadow-lg relative z-10"
+          />
           <div className="absolute inset-0 bg-white opacity-80 blur-md rounded-full z-0"></div>
         </div>
       </div>
     </div>
   );
 };
-
-{/* <div className="relative flex items-center justify-center">
-<div className="absolute w-40 h-40 md:w-60 md:h-60 bg-white rounded-full blur-lg opacity-50"></div>
-<img src={pic} alt="Profile" className="w-40 h-40 md:w-60 md:h-60 object-cover rounded-full relative z-10" />
-</div> */}
 
 export default Home;

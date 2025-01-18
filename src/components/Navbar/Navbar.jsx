@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="mailto:jk.karunadu01@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope className='text-white hover:text-gray-400 duration-300' size={25} />
           </a>
-          <a href="https://www.linkedin.com/in/jashwanth-071725310" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jashwanth-jk-071725310/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className='text-white hover:text-gray-400 duration-300' size={25} />
           </a>
           <a href="https://github.com/Jashwanth-rit" target="_blank" rel="noopener noreferrer">
