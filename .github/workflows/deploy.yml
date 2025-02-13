@@ -9,18 +9,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # Updated to v4
+        with:
+          node-version: '20'  # Specify Node.js version if needed
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm ci  # Use `npm ci` for better CI performance
       - name: Build project
         run: npm run build
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated to v4
         with:
           name: production-files
           path: ./dist
+          retention-days: 1  # Optional: keep artifacts for 1 day to save storage
+
   deploy:
     name: Deploy
     needs: build
@@ -28,7 +32,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4  # Updated to v4
         with:
           name: production-files
           path: ./dist
